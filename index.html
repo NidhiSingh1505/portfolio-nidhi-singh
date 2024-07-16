@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nidhi Singh Portfolio - Web Developer</title>
+
+    <link rel="icon" href="images/NS.jpg" type="image/x-icon"> 
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="images/logo.png" class="logo"> -->
+          <h2>Nidhi.</h2>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Achivements</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div>
+            <img src="images/nidhi singh.png" class="pic">
+        </div>
+        <span class="header-text">
+          <!-- <p class ="web-dev">Web Developer</p> -->
+          <h1>Hi, I'm <span>Nidhi</span><br />Singh From Ajmer <br/>An <span>Web Developer</span></h1>
+        </div>
+        <!-- <div>
+            <img src="images/nidhi singh.png" class="pic">
+        </div> -->
+      </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/nidhi.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I’m Nidhi Singh, a dedicated software developer based in
+              Ajmer, India. I earned my Master’s degree in Computer Applications
+              from JECRC University, Jaipur, with a CGPA of 9.0, and my
+              Bachelor’s degree from Aryan College, Ajmer, achieving 79.50%. I
+              have completed a 6-month internship as a Junior Software Developer
+              at AppInventers Pvt. Ltd. in Jaipur, where I focused on full-stack
+              development with Vue.js and Node.js. Additionally, I possess
+              strong programming skills in Java and C++. I pride myself on my
+              calm and patient approach, effective management skills, and a
+              strong problem-solving mindset. I am excited about roles that
+              match my skills and interests and believe I would be a valuable
+              addition to any team. Thank you for visiting my portfolio! Here,
+              you can find more about my background, qualifications, and
+              projects.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Html & Css</span><br />Designing Web</li>
+                <li><span>Web Development</span><br />Web Development using Html, Css ,Vue.js & Node.js and manymore</li>
+                <li>
+                  <span>Java Programming</span><br />coding, problem-solving and testing
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>1/01/24 - 30/06/24</span><br />Junior Software Developer as Full Stack web based Developer at Appinventers Pvt Ltd Jaipur
+                </li>
+                <li><span>1/11/23 - 31/12/23</span><br />Java software Developer at OctaNet Services Pvt. Ltd.</li>
+                <li>
+                 
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024</span><br />MCA from Jecrc University Jaipur with 9.0 CGPA
+                </li>
+                <li><span>2022</span><br />BCA from Aryan College Ajmer with 79.50%</li>
+                <li><span>2019</span><br />Senior Secondary from East Point school Ajmer with 73%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services---------------- -->
+    <div id="achieving">
+      <div class="container">
+        <h1 class="sub-title">Achivements</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Development using Html</h2>
+            <p>
+                CEWDHT1IN provided by IBMCE
+            </p>
+            <p>
+                HTML is the standard markup language used to create web pages.
+            </p>
+            <a href="https://courses.jecrc.skillsnetwork.site/certificates/d5841bbab6584f5883d00954ab1a6aa3" target="_blank">To see Certificate</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Javascript</h2>
+            <p>CEJS1IN provided by IBMCE</p>
+            <p>JavaScript is a versatile, high-level programming language primarily used for web development.
+            </p>
+            <a href="https://courses.jecrc.skillsnetwork.site/certificates/7160383838f04941b6a9120faf9e2b06" target="_blank">To see Certificate</a>
+          
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>    
+            <h2>Node JS</h2>
+            <p>
+                CENJS1IN provided by IBMCE
+            </p>
+            <p>
+                Node.js is a powerful JavaScript runtime built on Chrome's V8 engine, allowing developers to execute JavaScript code on the server side.
+            </p>
+            <a href="https://courses.jecrc.skillsnetwork.site/certificates/6311f01fd4794b279f76b8e339558956" target="_blank">To see Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you yo the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ----------contact------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> nidhisingh82905@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 8905796604</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/nidhi-singh-9ba087210"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="images/Updated CV Nidhi Singh .pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Nidhi. Made wtih <i class="fas fa-heart"></i> by 
+          <a href="">Love</a>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbyZntuoQz0s1Ic8WPs7onVbLwRLGM-okwnpKv_XPBrfVqtpUYt_tHYOG7POQEl43eFv/exec"; // add your own app script link here
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
